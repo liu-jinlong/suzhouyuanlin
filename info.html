@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>三国群英H5</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css?" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+
+<body class="bg7">
+<!--header start-->
+<header class="header">
+    <ul>
+        <li><a href="javascript:window.history.go(-1);"><i class="return"></i></a></li>
+        <li class="title"><h4>三国群英H5</h4></li>
+    </ul>
+</header>
+<!--header end-->
+<div class="enter_the_game">
+    <div class="enter_game">
+        <div class="con_boutique enter_game_ul  pb10">
+            <ul class="boutique_one">
+                <li><img src="http://oss.aliyuncs.com/cnwanmobile/images/01a12b6c-aedb-49d1-97ef-e6e279861058.png" alt="" /></li>
+            </ul>
+            <ul class="boutique_two">
+                <li><h4>三国群英H5</h4></li>
+                <li class="enter_jy clear"><span>策略</span>人气&nbsp;&nbsp;1231</li>
+            </ul>
+            <ul class="boutique_three pt5">
+                <li><a href="/Game/PlayGame?gameid=3">开始游戏</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="swiper-container" id="img">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="http://oss.aliyuncs.com/cnwanmobile/images/188fc278-73a3-4869-9653-7e5832533a43.jpg" id="img2" height="" />
+            </div>
+            <div class="swiper-slide">
+                <img src="http://oss.aliyuncs.com/cnwanmobile/images/e4553e7f-da1b-497f-9edd-ed987182b10f.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="http://oss.aliyuncs.com/cnwanmobile/images/58b9f9bb-4214-4315-bb15-7c4aa96a5861.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="http://oss.aliyuncs.com/cnwanmobile/images/a1f86524-07b5-49b1-9913-7e3882b4e5ce.jpg" />
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="game_introduce">
+        <ul class="more_ul clear ">
+            <li><p>游戏介绍</p><i></i></li>
+            <li class="game_jz clear"><p>《三国群英H5》是一款三国题材的中度SLG H5游戏。游戏以统一全国为目标，玩家最多可以同时拥有30个武将，同时多线作战，分配武将队伍，是该游戏的核心策略乐趣。</p></li>
+        </ul>
+    </div>
+    <form action="/Game/PlayGame" method="post" id="" class="start_game">
+        <input type="hidden" name="GameID" id="GameID" value="3" />
+        <input type="submit" value="开始游戏" id="sub" class="" />
+    </form>
+    <div class="con_entire_zj">
+        <p class="con_p">小编推荐</p>
+        <a href="/Game/QueryGameInfo/69">
+            <dl>
+                <dt><img src="http://oss.aliyuncs.com/cnwanmobile/images/874d4150-29c5-4593-9a4a-94f372c27a30.png" /></dt>
+                <dd>
+                    <h6>小小战争</h6>
+                </dd>
+            </dl>
+        </a>
+        <a href="/Game/QueryGameInfo/42">
+            <dl>
+                <dt><img src="http://oss.aliyuncs.com/cnwanmobile/images/19e7d70a-0eda-47e3-9592-ea19f0f943e6.jpg" /></dt>
+                <dd>
+                    <h6>暗黑之王</h6>
+                </dd>
+            </dl>
+        </a>
+        <a href="/Game/QueryGameInfo/70">
+            <dl>
+                <dt><img src="http://oss.aliyuncs.com/cnwanmobile/images/cf2a7e51-c84f-46d8-9c2e-36ea8fd0983d.png" /></dt>
+                <dd>
+                    <h6>天天挂传奇</h6>
+                </dd>
+            </dl>
+        </a>
+        <a href="/Game/QueryGameInfo/7">
+            <dl>
+                <dt><img src="http://oss.aliyuncs.com/cnwanmobile/images/78fee918-a2b5-48b5-a7c3-601d1c75eea7.png" /></dt>
+                <dd>
+                    <h6>愚公移山</h6>
+                </dd>
+            </dl>
+        </a>
+
+    </div>
+</div>
+</body>
+
+
+
+
+<link type="text/css" rel="stylesheet" href="css/swiper.min.css" />
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/slider/slider.css" />
+<link rel="stylesheet" type="text/css" href="css/slider/slider.default.css" />
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    wx.config({
+        debug: false,
+        appId: "wxb3f3dd64b26a0ae2",
+        timestamp: "1470992837",
+        nonceStr: "0vQGuQ4S2x4mjYEI",
+        signature: "E4C567B9645E41306B5A836AF5565F8470BCFD45",
+        jsApiList: [
+            "onMenuShareAppMessage", "onMenuShareQQ", "onMenuShareTimeline", "onMenuShareWeibo", "onMenuShareQZone"
+        ]
+    });
+    wx.ready(function () {
+        wx.onMenuShareAppMessage({
+            title: '中玩游戏平台', // 分享标题
+            desc: '单身男女，福利来了以后从此不寂寞', // 分享描述
+            link: 'http://cm.cnwan.com', // 分享链接
+            imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+            type: 'link', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+        });
+        wx.onMenuShareQQ({
+            title: '中玩游戏平台', // 分享标题
+            desc: '单身男女，福利来了以后从此不寂寞', // 分享描述
+            link: 'http://cm.cnwan.com', // 分享链接
+            imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+        })
+        wx.onMenuShareTimeline({
+            title: '中玩游戏平台', // 分享标题
+            link: 'http://cm.cnwan.com', // 分享链接
+            imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+        });
+        wx.onMenuShareWeibo({
+            title: '中玩游戏平台', // 分享标题
+            desc: '单身男女，福利来了以后从此不寂寞', // 分享描述
+            link: 'http://cm.cnwan.com', // 分享链接
+            imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+        });
+        wx.onMenuShareQZone({
+            title: '中玩游戏平台', // 分享标题
+            desc: '单身男女，福利来了以后从此不寂寞', // 分享描述
+            link: 'http://cm.cnwan.com', // 分享链接
+            imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+        });
+    });
+</script>
+<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="js/banner.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/touch.js"></script>
+<!--新版zepto合并版中不包括touch.js-->
+<script type="text/javascript" src="js/zepto.extend.js"></script>
+<script type="text/javascript" src="js/zepto.ui.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        var img = new Image();
+        img.src = $('#img2').attr("src");
+        var imgWidth = img.width;
+        var imgHeight = img.height;
+        if (imgHeight > imgWidth) {
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                slidesPerView: 2.5,
+                paginationClickable: true,
+                spaceBetween: 20,
+                freeMode: true
+            });
+        } else {
+            $("#img").attr("class", "swiper-container swiper-container_1")
+            var swiper = new Swiper('.swiper-container_1', {
+                pagination: '.swiper-pagination',
+                slidesPerView: 1.2,
+                paginationClickable: true,
+                spaceBetween: 20,
+                freeMode: true
+            });
+        }
+    })
+</script>
+
+</body>
+</html>

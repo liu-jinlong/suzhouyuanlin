@@ -1,0 +1,705 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>中玩游戏平台</title>
+    <link type="text/css" href="css/swiper.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/slider/slider.css" />
+    <link rel="stylesheet" type="text/css" href="css/slider/slider.default.css" />
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script>
+        wx.config({
+            debug: false,
+            appId: "wxb3f3dd64b26a0ae2",
+            timestamp: "1470990671",
+            nonceStr: "kgXjGVAWxTNsIlhj",
+            signature: "3720E30B8CD95C5FF74D662836E68AF9939B7CC9",
+            jsApiList: [
+                "onMenuShareAppMessage", "onMenuShareQQ", "onMenuShareTimeline", "onMenuShareWeibo", "onMenuShareQZone"
+            ]
+        });
+        wx.ready(function () {
+            wx.onMenuShareAppMessage({
+                title: '中玩游戏平台', // 分享标题
+                desc: '单身男女，福利来了以后从此不寂寞', // 分享描述
+                link: 'http://cm.cnwan.com', // 分享链接
+                imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+                type: 'link', // 分享类型,music、video或link，不填默认为link
+                dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            });
+            wx.onMenuShareQQ({
+                title: '中玩游戏平台', // 分享标题
+                desc: '单身男女，福利来了以后从此不寂寞', // 分享描述
+                link: 'http://cm.cnwan.com', // 分享链接
+                imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+            })
+            wx.onMenuShareTimeline({
+                title: '中玩游戏平台', // 分享标题
+                link: 'http://cm.cnwan.com', // 分享链接
+                imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+            });
+            wx.onMenuShareWeibo({
+                title: '中玩游戏平台', // 分享标题
+                desc: '单身男女，福利来了以后从此不寂寞', // 分享描述
+                link: 'http://cm.cnwan.com', // 分享链接
+                imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+            });
+            wx.onMenuShareQZone({
+                title: '中玩游戏平台', // 分享标题
+                desc: '单身男女，福利来了以后从此不寂寞', // 分享描述
+                link: 'http://cm.cnwan.com', // 分享链接
+                imgUrl: 'http://oss.aliyuncs.com/cnwanmobile/images/5408c64a-ef18-4d1c-a554-d01c983839a6.jpg', // 分享图标
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+
+
+<!--header start-->
+
+<!--header end-->
+<!--banner start-->
+<div id="slideBox" class="slideBox">
+    <div class="bd" >
+        <ul>
+            <li>
+                <a class="pic" href="/Game/QueryGameInfo/42">
+                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/2e3b7d57-5265-4065-af3f-f289960950f9.jpg" alt="" height="144" width="320" /></a>
+            </li>
+            <li style="display:none">
+                <a class="pic" href="/Game/QueryGameInfo/7">
+                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/066f9a94-41bd-4585-a752-d19705b73519.jpg" alt="" height="144" width="320" /></a>
+            </li>
+            <li style="display:none">
+                <a class="pic" href="/Game/QueryGameInfo/69">
+                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/a497594c-127a-4733-bc0c-60b8a3a8db66.jpg" alt="" height="144" width="320" /></a>
+            </li>
+            <li style="display:none">
+                <a class="pic" href="/Game/QueryGameInfo/71">
+                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/350caf7e-37fe-4e6a-bb2c-82770b9a27f1.jpg" alt="" height="144" width="320" /></a>
+            </li>
+            <li style="display:none">
+                <a class="pic" href="/Game/QueryGameInfo/66">
+                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/cb6052cc-6af5-452e-b359-52583c72a98b.jpg" alt="" height="144" width="320" /></a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="hd">
+        <ul></ul>
+    </div>
+</div>
+
+<!--banner end-->
+<!--content start-->
+<!--全部 开始-->
+<div class="content">
+    <!--<article>
+        <ul class="con_menu">
+            <li class="active">全部</li>
+            <li><a href="/Home/QueryNewGame">最新</a></li>
+            <li><a href="/Packet/QueryPacket">礼包</a></li>
+            <li><a href="/Game/QueryGameKind">分类</a></li>
+        </ul>
+    </article>-->
+
+    <nav class="nav clearfix">
+        <div class="nav-left">
+            <a href="javascript:;">
+                <img src="img/nav-l-1.png" alt=""/>
+            </a>
+        </div>
+        <div class="nav-middle"><img src="img/nav-m.png" alt=""/></div>
+        <div class="nav-right">
+            <a href="QueryPacket.html">
+                <img src="img/nav-r-2.png" alt=""/>
+            </a>
+        </div>
+    </nav>
+
+
+    <div class="con_entire">
+
+        <!--最近玩-->
+        <!--小编推荐-->
+        <div class="con_entire_zj">
+            <p class="con_p">小编推荐</p>
+            <a href="/Game/QueryGameInfo/69">
+                <dl>
+                    <dt>
+                        <img src="http://oss.aliyuncs.com/cnwanmobile/images/874d4150-29c5-4593-9a4a-94f372c27a30.png" /></dt>
+                    <dd>
+                        <h6>小小战争</h6>
+                    </dd>
+                </dl>
+            </a>
+            <a href="/Game/QueryGameInfo/42">
+                <dl>
+                    <dt>
+                        <img src="http://oss.aliyuncs.com/cnwanmobile/images/19e7d70a-0eda-47e3-9592-ea19f0f943e6.jpg" /></dt>
+                    <dd>
+                        <h6>暗黑之王</h6>
+                    </dd>
+                </dl>
+            </a>
+            <a href="/Game/QueryGameInfo/70">
+                <dl>
+                    <dt>
+                        <img src="http://oss.aliyuncs.com/cnwanmobile/images/cf2a7e51-c84f-46d8-9c2e-36ea8fd0983d.png" /></dt>
+                    <dd>
+                        <h6>天天挂传奇</h6>
+                    </dd>
+                </dl>
+            </a>
+            <a href="/Game/QueryGameInfo/7">
+                <dl>
+                    <dt>
+                        <img src="http://oss.aliyuncs.com/cnwanmobile/images/78fee918-a2b5-48b5-a7c3-601d1c75eea7.png" /></dt>
+                    <dd>
+                        <h6>愚公移山</h6>
+                    </dd>
+                </dl>
+            </a>
+
+        </div>
+        <!--大家都在玩-->
+        <div class="con_entire_zj ">
+            <p class="con_p">大家都在玩</p>
+            <a href="/Game/QueryGameInfo/66">
+                <dl>
+                    <dt>
+                        <img src="http://oss.aliyuncs.com/cnwanmobile/images/a41f2340-4da7-4ddc-a55b-72f04527915a.png" /></dt>
+                    <dd>
+                        <h6>莽荒纪</h6>
+                    </dd>
+                </dl>
+            </a>
+            <a href="/Game/QueryGameInfo/71">
+                <dl>
+                    <dt>
+                        <img src="http://oss.aliyuncs.com/cnwanmobile/images/c24f5424-9f23-4d6b-939e-cd61659ce829.jpg" /></dt>
+                    <dd>
+                        <h6>芈月传</h6>
+                    </dd>
+                </dl>
+            </a>
+            <a href="/Game/QueryGameInfo/67">
+                <dl>
+                    <dt>
+                        <img src="http://oss.aliyuncs.com/cnwanmobile/images/61faaf6a-b28e-4576-a27f-683af0d4c504.png" /></dt>
+                    <dd>
+                        <h6>刀塔外传</h6>
+                    </dd>
+                </dl>
+            </a>
+            <a href="/Game/QueryGameInfo/54">
+                <dl>
+                    <dt>
+                        <img src="http://oss.aliyuncs.com/cnwanmobile/images/448b7abc-1616-49c7-9ee8-3637692ae6db.png" /></dt>
+                    <dd>
+                        <h6>矮人爬爬塔</h6>
+                    </dd>
+                </dl>
+            </a>
+
+            <div class="bnn">
+                <a class="pic" href="/Game/QueryGameInfo/67">
+                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/0f76faac-f9eb-4f2b-aa8b-94933bccdf53.jpg" alt="" height="80" width="320" /></a>
+            </div>
+
+
+        </div>
+        <!--精品游戏-->
+        <div class="con_entire_boutique">
+            <p class="con_p">精品游戏</p>
+            <div id="div_id">
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/3">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/01a12b6c-aedb-49d1-97ef-e6e279861058.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>三国群英H5</h4>
+                                </li>
+                                <li class="mt2"><i class="bg1">策略</i><span class="popularity">1231人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=3">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/7">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/78fee918-a2b5-48b5-a7c3-601d1c75eea7.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>愚公移山</h4>
+                                </li>
+                                <li class="mt2"><i class="bg1">策略</i><span class="popularity">2185人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=7">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/11">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/7be47a90-f3e6-4a0f-a12f-0d072c76b3a9.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>萌萌打天下</h4>
+                                </li>
+                                <li class="mt2"><i class="bg4">其他</i><span class="popularity">2154人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=11">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/13">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/105e8ed7-f77c-433f-867b-b18985b887aa.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>熊猫连连看</h4>
+                                </li>
+                                <li class="mt2"><i class="bg2">休闲</i><span class="popularity">1852人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=13">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/14">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/d109533f-7466-4ec8-b0e1-de32ff03e61a.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>大坦克</h4>
+                                </li>
+                                <li class="mt2"><i class="bg1">策略</i><span class="popularity">1985人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=14">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/15">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/9b4cb38a-f356-411d-ad9a-6d6244840668.jpg" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>三国魂</h4>
+                                </li>
+                                <li class="mt2"><i class="bg1">策略</i><span class="popularity">2741人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=15">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/16">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/edcc5305-9c48-4e15-af31-461e2ab78f4c.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>武林英雄</h4>
+                                </li>
+                                <li class="mt2"><i class="bg6">挂机</i><span class="popularity">1441人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=16">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/17">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/55bf7ae4-a565-44e5-a47d-ee8525d6daa4.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>我要当首富</h4>
+                                </li>
+                                <li class="mt2"><i class="bg6">挂机</i><span class="popularity">1442人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=17">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/18">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/85e6c0f5-ed8b-494a-aac1-1c8abdeebb0f.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>泡泡大灌篮</h4>
+                                </li>
+                                <li class="mt2"><i class="bg2">休闲</i><span class="popularity">2213人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=18">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/20">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/5bbe470b-8e48-4e65-bcbc-55c41c0b8083.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>航海传奇</h4>
+                                </li>
+                                <li class="mt2"><i class="bg8">模拟经营</i><span class="popularity">2724人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=20">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/24">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/d23c2cd2-886f-4d9e-b299-f39897557c29.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>城堡三国</h4>
+                                </li>
+                                <li class="mt2"><i class="bg3">角色扮演</i><span class="popularity">2254人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=24">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/26">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/9ee87db5-c0cc-43fe-8bb7-83d3b9c36c33.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>奇兵部落</h4>
+                                </li>
+                                <li class="mt2"><i class="bg1">策略</i><span class="popularity">1945人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=26">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/28">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/f4a76c46-4a77-4eee-b5a9-eb6a1f86d70f.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>全民挂机</h4>
+                                </li>
+                                <li class="mt2"><i class="bg6">挂机</i><span class="popularity">1241人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=28">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/29">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/2918acee-601c-4063-8dd7-1298b8fe7adc.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>欢聚斗牛</h4>
+                                </li>
+                                <li class="mt2"><i class="bg7">棋牌桌游</i><span class="popularity">2641人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=29">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/31">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/6e77c42e-ffa0-4750-a4fb-84478b47d964.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>旋转消消乐</h4>
+                                </li>
+                                <li class="mt2"><i class="bg2">休闲</i><span class="popularity">1574人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=31">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/32">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/cfef6e64-8948-4bea-bf06-0cf17248b48a.jpg" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>海岛船奇</h4>
+                                </li>
+                                <li class="mt2"><i class="bg4">其他</i><span class="popularity">1864人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=32">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/35">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/3be1795c-b748-45aa-baca-844c9e24a4f1.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>全民穿越之宫</h4>
+                                </li>
+                                <li class="mt2"><i class="bg3">角色扮演</i><span class="popularity">1245人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=35">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/37">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/46fbacc3-07ad-4860-beb4-727b267e184a.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>星际农场</h4>
+                                </li>
+                                <li class="mt2"><i class="bg1">策略</i><span class="popularity">2145人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=37">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/38">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/c0091ee1-16f0-467a-98cd-e177bd2fa9df.png" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>秦时明月H5</h4>
+                                </li>
+                                <li class="mt2"><i class="bg3">角色扮演</i><span class="popularity">2411人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=38">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="con_boutique">
+                    <div class="boutique_ul">
+                        <a href="/Game/QueryGameInfo/39">
+                            <ul class="boutique_one">
+                                <li>
+                                    <img src="http://oss.aliyuncs.com/cnwanmobile/images/09e08910-6815-444d-9567-6a9fce0e1221.jpg" alt="" /></li>
+                            </ul>
+                            <ul class="boutique_two">
+                                <li>
+                                    <h4>囧囧兔：特困生</h4>
+                                </li>
+                                <li class="mt2"><i class="bg2">休闲</i><span class="popularity">1741人在玩</span></li>
+
+                            </ul>
+                        </a>
+                        <ul class="boutique_three">
+                            <li><a href="/Game/PlayGame?gameID=39">开始游戏</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div id="" class="to_load">
+                <input type="hidden" value="5" id="PageCount" />
+                <input type="hidden" value="1" id="PageIndex" />
+                <input id="GetMore" type="button" value="加载更多" onclick="getMore()" />
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--全部 结束-->
+<!--content end-->
+
+
+</body>
+<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="js/banner.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/touch.js"></script>
+<!--新版zepto合并版中不包括touch.js-->
+<script type="text/javascript" src="js/zepto.extend.js"></script>
+<script type="text/javascript" src="js/zepto.ui.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+
+<script type="text/javascript">
+    function getMore() {
+        var i = parseInt($("#PageIndex").val());
+        var n = parseInt($("#PageCount").val());
+        if (i == n) {
+            $("#GetMore").val("没有更多了");
+        } else {
+            i = i + 1;
+            $.ajax({
+                type: "post",
+                url: "/Home/GetMoreGame",
+                data: { pageIndex: i },
+                datatype: "json",
+                success: function (data) {
+                    var newhtml = "";
+                    for (var game in data) {
+                        var kindid = data[game]["GameKindID"]
+                        var bg = "bg" + kindid;
+                        //newhtml = newhtml + "<div class='con_boutique'><div class='boutique_ul'><ul class='boutique_one'><li><img src='" + data[game]["PreviewPath"] + "' alt='' /></li></ul><ul class='boutique_two'><li><h4>" + data[game]["Name"] + "</h4></li><li class='mt10'><i class=" + bg + ">" + data[game]["Mark"] + "</i></li><li><p class='boutique_two_p'>" + data[game]["Intro"] + "</p></li></ul><ul class='boutique_three'><li><a href='/Game/QueryGameInfo/" + data[game]["GameID"] + "'>进入游戏</a></li></ul></div></div>"
+                        newhtml = newhtml + "<div class='con_boutique'><div class='boutique_ul'><a href='/Game/QueryGameInfo/" + data[game]["GameID"] + "'><ul class='boutique_one'><li><img src='" + data[game]["PreviewPath"] + "' alt='' /></li></ul><ul class='boutique_two'><li><h4>" + data[game]["Name"] + "</h4></li><li class='mt2'><i class=" + bg + ">" + data[game]["Mark"] + "</i><span class='popularity'>" + data[game]["PlayerNumber"] + "人在玩</span></li></ul></a><ul class='boutique_three'><li><a href='/Game/PlayGame?gameID=" + data[game]["GameID"] + "'>开始游戏</a></li></ul></div></div>"
+                    }
+                    //获取原来的游戏列表
+                    var html = document.getElementById("div_id").innerHTML;
+                    //追加到列表后面
+                    document.getElementById("div_id").innerHTML = html + newhtml;
+                    $("#PageIndex").val(i);
+                }
+            });
+        }
+    }
+
+</script>
+
+</html>
